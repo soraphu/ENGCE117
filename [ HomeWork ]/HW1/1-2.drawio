@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="หน้า-1" id="S-XXoNi9T4btz2eqsyuL">
+    <mxGraphModel dx="724" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTCq_u5EFDAayE9MlcoP-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTCq_u5EFDAayE9MlcoP-6" target="xTCq_u5EFDAayE9MlcoP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-6" value="PRINT &quot;Hello, I&#39;m Javis (RMUTL-Version).\n&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="120" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTCq_u5EFDAayE9MlcoP-7" target="xTCq_u5EFDAayE9MlcoP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-7" value="PRINT&amp;nbsp;&quot;This is my first time to coding with C language.\n&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="210" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xTCq_u5EFDAayE9MlcoP-8" target="xTCq_u5EFDAayE9MlcoP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-8" value="PRINT&amp;nbsp;&quot;Today is my birthday.\n&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="290" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xTCq_u5EFDAayE9MlcoP-12" value="End" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
