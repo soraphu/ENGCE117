@@ -1,0 +1,5 @@
+Test case :
+    enter score :
+        65
+Output :        
+    C+ !

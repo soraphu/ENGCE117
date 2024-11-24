@@ -1,0 +1,8 @@
+Test case :
+    : 18 999 12
+
+Output :
+    1st Number = 18
+    2nd Number = 999
+    3rd Number = 12
+    The 2nd Number is the greatest among three    
