@@ -1,0 +1,5 @@
+Test case :
+A B C D
+
+Output :
+Result: D C B A

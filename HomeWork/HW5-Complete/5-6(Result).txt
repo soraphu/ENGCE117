@@ -1,0 +1,6 @@
+Test case :
+    Input :
+      -99
+
+Output :  
+    Negative
