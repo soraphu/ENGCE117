@@ -1,3 +1,0 @@
-Find triagle area
-Enter [H & W] : 12 5
-Triagle Area : 30.0
