@@ -14,7 +14,7 @@ int main() {
 void GetSet( int *data[], int *num ) {
     int input ;
     scanf( "%d", num ) ;
-    for( int i = 0 ; i < *num ; i ++ ) { //รับค่าจากแป้นพิมจำนวนครั้งเท่ากับ *num - 1
+    for( int i = 0 ; i < *num ; i ++ ) { //รับค่าจากแป้นพิมจำนวนครั้งเท่ากับ(*num - 1)
         scanf( "%d", &data[ i ] ) ;
     }
 }

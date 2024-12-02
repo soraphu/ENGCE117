@@ -13,9 +13,9 @@ int main() {
 
 void reverse( char str1[], char str2[] ) {
     int j = 0 ; 
-    for( int i = 50 ; i >= 0 ; i -- ) { //เก็บ str1[ 50 ถึง 0 ] ใน str2[ 0 ถึง n ] ลนลูปจนครบทุกตัวอักษร
+    for( int i = 50 ; i >= 0 ; i -- ) { //เก็บ(str1[ 50 ถึง 0 ])ใน(str2[ 0 ถึง n ])วนลูปจนครบทุกตัวอักษร
         str2[ j ] = str1[ i ] ;
         printf( "%c", str2[ j ] ) ;
         j ++ ;
     }
-}
+}//end function
