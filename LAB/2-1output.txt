@@ -1,0 +1,19 @@
+TEST CASE 1 :
+    ### Input      
+
+      Engineering !
+
+
+    ### Output
+
+      ! gnireenignE
+
+TEST CASE 2 :
+  ### Input 
+
+    Barber !
+
+
+  ### Output
+
+    ! rebraB
