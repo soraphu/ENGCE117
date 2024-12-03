@@ -27,6 +27,10 @@ int* GetMatrix( int *row, int *col ) {
     for( int i = 0 ; i < *row ; i ++ ) {
         for( int j = 0 ; j < *col ; j ++ ) {
             scanf( "%d", &arr[ i * *col + j ] ) ;
+            if( getchar() == '\n' &&  i == *row - 1 && j == *col - 2 ) { //ตรวจการ(Enter)และเทียบค่า
+                printf( "\n### Output" ) ;
+                printf( "\n\nError: Invalid matrix input" ) ;
+            }
         }
     }//end for
     return arr ;//คืนค่าพ้อยเตอร์(arr)ซึ่งเป็นอเรย์ 1มิติ

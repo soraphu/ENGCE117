@@ -42,3 +42,12 @@ TEST CASE 5 :
     ### Output
     
     Error: Invalid matrix dimensions.
+
+TEST CASE 6 :
+    Enter the number of rows: 2 
+    Enter the number of columns: 2
+    Enter the matrix element: 1 2 3
+    
+    ### Output
+    
+    Error: Invalid matrix input
