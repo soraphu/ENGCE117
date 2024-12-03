@@ -18,14 +18,14 @@ int main() {
 }//end function
 
 void explode(char str1[], char splitter[], char str2[][10], int *count) {
-    char str01[ 50 ] ;//กำหนดมาแก้ไขปัญหา
-    strcpy( str01, str1 ) ;//(strcpy)ก็อป(string)จาก(str1)ไปใส่(str01)
+    char str01[ 50 ] ;
+    strcpy( str01, str1 ) ;
     //บรรทัดบนเกิดขึ้นเพราะการกำหนดสตริงใส่ไปตรงๆผ่านฟังชั่นทำให้สตริงนั้นเป็นค่าคงที่ไม่สามารถแก้ไขได้ แล้วคำสั่ง(strtoken)เป็นคำสั่งที่จะต้องแก้ไขสตริงเพื่อเปลี่ยนอักขระเป็น(NULL)     
     char *token ;
     printf( "%s\n\n", str01 ) ;
     token = strtok( str01, splitter ) ;//คำสั่ง(strtok)จะรับสตริงที่ให้มา(str01)แล้วตรวจหาคำที่เหมือนกับสตริงที่นำมาเทียน(splitter)แล้วใส่(NULL)และจดจำตำแหน่งต่อไปเอาไว้
-    while( token != NULL ) { //ลูปเมื่อจุดไหน != NULL จะทำการใส่ไปยัง str2[ ที่ *count ]
-        strcpy( str2 [ *count ], token ) ; //ก็อปแต่ละ token ใส่ str2[ ที่ *count ]
+    while( token != NULL ) { 
+        strcpy( str2 [ *count ], token ) ;
         token = strtok( NULL, splitter ) ; //เรียกใช้ค่าตำแหน่งถัดไปที่จดจำไว้
         ( *count ) ++ ; //ให้ค่าที่แสดงที่พ้อยเตอร์ count ชี้ ++
     }//end while

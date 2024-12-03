@@ -2,30 +2,40 @@ TEST CASE 1 :
     ### Input
 
     3 3 
-    1 2 3
-    4 5 6
-    7 8 9
+    9 8 7
+    6 5 4
+    3 2 1
 
 
     ### Output
 
     Enter number of rows and columns: 3 3
     Enter matrix element:
-    1 2 3
-    4 5 6
-    7 8 9
+    9 8 7
+    6 5 4
+    3 2 1
+
 
 TEST CASE 2 :
     ### Input
 
-    2 6
-    1 2 3 4 5 6
-    7 8 9 10 11 12
-    
-    
+    0 0
+
+
     ### Output
-    
-    Enter number of rows and columns: 2 6
+
+    Enter number of rows and columns: 0 0
+
+
+TEST CASE 3 :
+    ### Input
+
+    1 1
+    5
+
+
+    ### Output
+
+    Enter number of rows and columns: 1 1
     Enter matrix element:
-    1 2 3 4 5 6
-    7 8 9 10 11 12
+    5

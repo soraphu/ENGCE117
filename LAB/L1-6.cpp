@@ -9,7 +9,9 @@ int main() {
     data = GetMatrix( &m, &n ) ;//เรียกใช้ฟังชั่น
     printf( "\n\n### Output\n\n" ) ;
     printf( "Enter number of rows and columns: %d %d\n", m, n ) ;//แสดงค่า(m และ n)
-    printf( "Enter matrix element:\n" ) ;
+    if ( m > 0 && n > 0 ) {    
+        printf( "Enter matrix element:\n" ) ;
+    }
     for( int i = 0 ; i < m ; i ++ ) { //ลูป(for rows)
         for( int j = 0 ; j < n ; j ++ ) { //ลูป(for cols)
             printf( "%d ", *( data + ( i * n + j ) ) ) ; //ปริ้นตั้งแต่(data[ 0 ถึง n ])หรือจนครบอเรย์ที่พ้อยเตอร์(data)ชี้
