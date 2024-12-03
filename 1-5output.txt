@@ -1,0 +1,53 @@
+TEST CASE 1 :
+    Enter the number of rows: 2
+    Enter the number of columns: 3
+    Enter the matrix element: 6 5 4 3 2 1 
+
+    ### Output    
+
+    Matrix: (2x3):
+    6 5 4
+    3 2 1
+
+TEST CASE 2 :
+    Enter the number of rows: 1
+    Enter the number of columns: 4
+    Enter the matrix element: 1 2 2 4
+
+    ### Output
+
+    Matrix:
+    1 2 2 4
+
+TEST CASE 3 :
+    Enter the number of rows: 0
+    Enter the number of columns: 0
+
+    ### Output
+
+    (empty)
+
+TEST CASE 4 :
+    Enter the number of rows: 0
+    Enter the number of columns: 3
+
+    ### Output
+
+    Error: Invalid matrix dimensions.
+
+TEST CASE 5 :
+    Enter the number of rows: 9
+    Enter the number of columns: 0
+    
+    ### Output
+    
+    Error: Invalid matrix dimensions.
+
+TEST CASE 6 :
+    Enter the number of rows: 2 
+    Enter the number of columns: 2
+    Enter the matrix element: 1 2 3
+    
+    ### Output
+    
+    Error: Invalid matrix input
