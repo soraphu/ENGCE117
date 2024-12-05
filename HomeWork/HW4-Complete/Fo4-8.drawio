@@ -1,0 +1,41 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="NO9vJk60mWcAPLN1zhh3">
+    <mxGraphModel dx="530" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVr3W--l6XUjdvBUqwSX-1" target="TVr3W--l6XUjdvBUqwSX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="400" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVr3W--l6XUjdvBUqwSX-4" target="TVr3W--l6XUjdvBUqwSX-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-4" value="&quot;User Input : &quot;&lt;div&gt;#รับค่าจากผู้ใช้&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="70" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVr3W--l6XUjdvBUqwSX-7" target="TVr3W--l6XUjdvBUqwSX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-7" value="แปลงค่าที่รับมาจากเลขฐาน16 เป็นเลขฐาน2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="150" width="225" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TVr3W--l6XUjdvBUqwSX-8" target="TVr3W--l6XUjdvBUqwSX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-8" value="&lt;div&gt;Output : #เลขฐาน2&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362.13" y="230" width="154.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TVr3W--l6XUjdvBUqwSX-10" value="END" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="399" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

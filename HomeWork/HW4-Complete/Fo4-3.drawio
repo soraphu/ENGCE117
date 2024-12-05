@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="Page-1" id="jkjzajHR-cvOdpzH7A6W">
+    <mxGraphModel dx="1114" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mbsrZZhOiE-1iRgTwoNs-1" target="mbsrZZhOiE-1iRgTwoNs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="395" y="-1080" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mbsrZZhOiE-1iRgTwoNs-2" target="mbsrZZhOiE-1iRgTwoNs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-2" value="&quot;Enter Value(a + b + c) : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-1010" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mbsrZZhOiE-1iRgTwoNs-4" target="mbsrZZhOiE-1iRgTwoNs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-4" value="ใส่ค่าให้ &quot;a b c&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-940" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mbsrZZhOiE-1iRgTwoNs-6" target="mbsrZZhOiE-1iRgTwoNs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-6" value="&quot;Answer = #ค่า a + b + c&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="-850" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mbsrZZhOiE-1iRgTwoNs-8" value="END" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="395" y="-740" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

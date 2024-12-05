@@ -1,0 +1,6 @@
+Test case :
+User input :
+    FB
+
+Output :      
+11111011
