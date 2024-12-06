@@ -31,5 +31,14 @@
 #include <stdio.h>
 
 int main() {
-    
-}
+    float x1, y1 ,x2 ,y2 ;
+    printf( "Input A Point :\n    " ) ;
+    scanf( "%f %f", &x1, &y1 ) ;
+    printf( "Input B Point :\n    " ) ;
+    scanf( "%f %f", &x2, &y2 ) ;
+    printf( "\n" ) ;
+    printf( "Output :\n    " ) ;
+    float Midx = (x1+x2)/2 ;//หาจุดกึ่งกลาง X
+    float Midy = (y1+y2)/2 ;//หาจุดกึ่งกลาง Y
+    printf( "Mid Point of A and B is ( %.1f, %.1f )", Midx, Midy ) ;
+}//end function
