@@ -1,0 +1,32 @@
+TEST CASE 1 :
+    Enter 1 character :
+        S
+    Enter 1 character :
+        T
+    Enter 1 character :
+        R 
+    Enter 1 character :
+        I
+    Enter 1 character :
+        N
+    Enter 1 character :
+        G
+    Enter 1 character :
+        y
+    String = S T R I N G 
+
+
+TEST CASE 2 :
+    Enter 1 character :
+        H
+    Enter 1 character :
+        E
+    Enter 1 character :
+        L
+    Enter 1 character :
+        L
+    Enter 1 character :
+        O
+    Enter 1 character :
+        Y
+    String = H E L L O 
