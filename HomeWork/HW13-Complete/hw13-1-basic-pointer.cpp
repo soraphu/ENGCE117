@@ -1,0 +1,50 @@
+/*
+    ผู้ใช้กรอกชื่อและอายุเข้าไปในระบบจำนวน 2 ครั้ง โดยให้คุณทำการสลับอายุของคน 2 คนนี้ผ่านฟังก์ชันที่คุณเขียนขึ้นมา เช่น นาย ก อายุ 31 ปี และ นาย ข อายุ 20 ปี หลังจากเรียกฟังก์ชันการสลับค่าแล้ว นาย ก จะอายุ 20 ปี และนาย ข จะอายุ 31 ปี
+    (กำหนดให้เขียนวิธีการสลับ 2 ค่านี้ โดยใช้ตัวแปรประเภท Pointer เท่านั้น)
+    
+    Test case:
+        Input A
+        Name : 
+            Yorn
+        Age : 
+            31
+        Input B
+        Name : 
+            Thane
+        Age : 
+            20
+    Output:
+        ** RESULT **
+        Name: Yorn (31)
+        Name: Thane (20)
+
+        ** SWAP AGE **
+        Name: Yorn (20)
+        Name: Thane (31)
+
+*/
+#include <stdio.h>
+
+int main() {
+    char name1[ 50 ], name2[ 50 ] ;
+    int old1, old2, *ptr1, *ptr2 ;
+    printf( "INPUT A\n" ) ;
+    printf( "Name :\n    " ) ;
+    scanf( "%s", &name1 ) ;//รับชื่อ A
+    printf( "Age :\n    " ) ;
+    scanf( "%d", &old1 ) ;//รับอายุ
+    printf( "INPUT B\n" ) ;
+    printf( "Name :\n    " ) ;
+    scanf( "%s", &name2 ) ;//รับชื่อ B
+    printf( "Age :\n    " ) ;
+    scanf( "%d", &old2 ) ;//รับอายุ
+    printf( "Output :\n    " ) ;
+    printf( "** RESULT **\n    " ) ;
+    printf( "Name : %s (%d)\n    ", name1, old1 ) ;
+    printf( "Name : %s (%d)\n", name2, old2 ) ;
+    ptr1 = &old2 ;//สลับอายุ A เป็น B
+    ptr2 = &old1 ;//สลับอายุ B เป็น A
+    printf( "\n    ** SWAP AGE **\n    " ) ;
+    printf( "Name : %s (%d)\n    ", name1, *ptr1 ) ;//แสดงค่าล่าสุด
+    printf( "Name : %s (%d)", name2, *ptr2 ) ;
+}//end function

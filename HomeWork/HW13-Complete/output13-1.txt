@@ -1,0 +1,19 @@
+TEST CASE :
+    INPUT A
+    Name :
+        Jame   
+    Age :
+        30
+    INPUT B
+    Name : 
+        Joe
+    Age :
+        15
+    Output :
+        ** RESULT **
+        Name : Jame (30)
+        Name : Joe (15)
+
+        ** SWAP AGE **
+        Name : Jame (15)
+        Name : Joe (30)

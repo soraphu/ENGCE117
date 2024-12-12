@@ -1,0 +1,125 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="nk33O3myFzExoFOTdXr2">
+    <mxGraphModel dx="1235" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UBjv-P3hsI7ne-E2DAJY-2" target="L0LTj8KVW8KC8nR_OFEM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-2" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-3" value="END" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1010" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-2" target="L0LTj8KVW8KC8nR_OFEM-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-2" value="Input ชื่อ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-20" target="L0LTj8KVW8KC8nR_OFEM-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-20" value="input เงินเดือน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-22" target="L0LTj8KVW8KC8nR_OFEM-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="410" />
+              <mxPoint x="400" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-26" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L0LTj8KVW8KC8nR_OFEM-23">
+          <mxGeometry x="0.0121" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-22" target="L0LTj8KVW8KC8nR_OFEM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="320" />
+              <mxPoint x="520" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-25" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L0LTj8KVW8KC8nR_OFEM-24">
+          <mxGeometry x="-0.6989" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-22" value="ชื่อ == &quot;-1&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-27" target="L0LTj8KVW8KC8nR_OFEM-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-27" value="นำเงินเดือนทุกคนทั้งหมดบวกกัน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-29" target="L0LTj8KVW8KC8nR_OFEM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-29" value="แสดง All salary per month: ผลลัพธ์" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="500" width="215" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-31" target="L0LTj8KVW8KC8nR_OFEM-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-31" value="เงินเดือนทุกคน x 12" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="570" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-32" target="L0LTj8KVW8KC8nR_OFEM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-32" value="แสดง All salary per year:&amp;nbsp;ผลลัพธ์" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="640" width="215" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="L0LTj8KVW8KC8nR_OFEM-36" target="L0LTj8KVW8KC8nR_OFEM-37" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-36" value="เงินเดือนทุกคน x 0.07" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="700" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-37" target="L0LTj8KVW8KC8nR_OFEM-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-37" value="แสดง Tax (7% per year) : ผลลัพธ์" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="770" width="215" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-40" target="L0LTj8KVW8KC8nR_OFEM-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-40" value="คำนวณหาผู้ที่เงินเดือนมากที่สุด" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343.75" y="840" width="112.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0LTj8KVW8KC8nR_OFEM-42" target="UBjv-P3hsI7ne-E2DAJY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0LTj8KVW8KC8nR_OFEM-42" value="แสดง&amp;nbsp;Most tax in company : ชื่อ ( [ (เงินเดือน * 12 * )0.07 ] Bath per year )" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="920" width="420" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
