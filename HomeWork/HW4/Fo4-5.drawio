@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="Page-1" id="Rp7Z_WTt40Dc3UCUcqKn">
+    <mxGraphModel dx="637" dy="327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r9nHC76LBEbepRUvQMg9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r9nHC76LBEbepRUvQMg9-1" target="r9nHC76LBEbepRUvQMg9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="390" y="30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r9nHC76LBEbepRUvQMg9-2" target="r9nHC76LBEbepRUvQMg9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-2" value="&quot;Input Day : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r9nHC76LBEbepRUvQMg9-4" target="r9nHC76LBEbepRUvQMg9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-4" value="&quot;ค่าจำนวนวัน day = ค่าจำนวนวัน * 86400 seconds&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="293.75" y="190" width="292.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r9nHC76LBEbepRUvQMg9-6" value="END" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="80" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

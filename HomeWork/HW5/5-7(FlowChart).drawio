@@ -1,0 +1,151 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="nk33O3myFzExoFOTdXr2">
+    <mxGraphModel dx="928" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qebTrUafwahXqv38advQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UBjv-P3hsI7ne-E2DAJY-2" target="qebTrUafwahXqv38advQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-2" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="125" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-3" value="END" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="370" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qebTrUafwahXqv38advQ-2" target="qebTrUafwahXqv38advQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-2" value="&quot;Year(s) :\n&quot;&lt;div&gt;#ใส่ค่าปี ค.ศ&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-101" target="qebTrUafwahXqv38advQ-115" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qebTrUafwahXqv38advQ-3" target="qebTrUafwahXqv38advQ-81" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-83" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-82" vertex="1" connectable="0">
+          <mxGeometry x="-0.1518" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-3" value="ถ้า ค.ศ % 4 ≠&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;0&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="112.5" y="200" width="105" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qebTrUafwahXqv38advQ-81" target="qebTrUafwahXqv38advQ-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-107" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-89" vertex="1" connectable="0">
+          <mxGeometry x="-0.4247" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;shadow=0;flowAnimation=0;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1" target="qebTrUafwahXqv38advQ-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="327.75" y="384" as="sourcePoint" />
+            <mxPoint x="270.99" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="329" y="384" />
+              <mxPoint x="329" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-106" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-105" vertex="1" connectable="0">
+          <mxGeometry x="-0.3306" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-81" value="ถ้า ค.ศ % 4 =&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;0&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;และ ค.ศ % 100 = 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;และ ค.ศ % 400&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;≠ 0&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="255" y="280" width="147.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-88" target="qebTrUafwahXqv38advQ-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="636" y="455" />
+              <mxPoint x="636" y="655" />
+            </Array>
+            <mxPoint x="636" y="490.18644067796606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-108" value="else" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.2193" y="1" relative="1" as="geometry">
+            <mxPoint y="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-88" target="qebTrUafwahXqv38advQ-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-110" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-96" vertex="1" connectable="0">
+          <mxGeometry x="-0.2105" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-88" value="ถ้า ค.ศ % 4 =&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;0&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;และ ค.ศ % 100&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;≠&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;0&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415" y="400" width="147.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-90" target="qebTrUafwahXqv38advQ-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-90" value="&quot;February 29 days&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="750" width="126.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjoOe3jsj5I7nyJwW9an-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qebTrUafwahXqv38advQ-95" target="qebTrUafwahXqv38advQ-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-95" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="548.13" y="640" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-3" target="qebTrUafwahXqv38advQ-101" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="165" y="300" as="sourcePoint" />
+            <mxPoint x="240" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-103" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qebTrUafwahXqv38advQ-102" vertex="1" connectable="0">
+          <mxGeometry x="-0.1857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-101" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="240" y="670" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qebTrUafwahXqv38advQ-115" target="qebTrUafwahXqv38advQ-117" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-115" value="&quot;February 28 days&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="750" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qebTrUafwahXqv38advQ-117" target="UBjv-P3hsI7ne-E2DAJY-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qebTrUafwahXqv38advQ-117" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="395" y="870" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

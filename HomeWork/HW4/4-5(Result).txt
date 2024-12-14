@@ -1,0 +1,5 @@
+Test case :
+Input Days : 10
+
+Output :
+10 days = 864000 seconds
