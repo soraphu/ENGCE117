@@ -1,6 +1,0 @@
-Test case :
-Find triagle area
-Enter [H & W] : 12 5
-
-Output :
-Triagle Area : 30.0

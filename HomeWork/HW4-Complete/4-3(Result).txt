@@ -1,5 +1,0 @@
-Test case :
-Enter Value(a + b + c) : 1 4 7
-
-Test case :
-Answer = 12

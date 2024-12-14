@@ -1,6 +1,0 @@
-Test case :
-    Input :
-        19
-
-Output : 
-    19 is an odd integer

@@ -1,4 +1,0 @@
-TEST CASE :
-    Hello world bi=oii
-    
-    iio=ib dlrow olleH

@@ -1,6 +1,0 @@
-Test case :
-User input :
-    30     
-
-Output : 
-Thirty

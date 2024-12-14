@@ -1,8 +1,0 @@
-Test case :
-    Input 1 :
-        99   
-    Input 2 :
-        15  
-
-Output : 
-    Number1 greater than Number2
