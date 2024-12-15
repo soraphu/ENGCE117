@@ -1,0 +1,19 @@
+TEST CASE 1 :
+    enter score :
+        90
+    A !
+
+TEST CASE 2 :
+    enter score :
+        20
+    F !
+
+TEST CASE 3 :
+    enter score :
+        65
+    C+ !
+
+TEST CASE 4 :
+    enter score :
+        70
+    B !

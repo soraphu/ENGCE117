@@ -1,0 +1,7 @@
+TEST CASE 1 :    
+    514
+    DXIV
+
+TEST CASE 2 :    
+    929
+    CMXXIX

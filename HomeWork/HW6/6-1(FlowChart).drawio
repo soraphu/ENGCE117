@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="nk33O3myFzExoFOTdXr2">
+    <mxGraphModel dx="724" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UBjv-P3hsI7ne-E2DAJY-2" target="FdNQZd1uyK2Fwrzt_VXN-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-2" value="START" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="360" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UBjv-P3hsI7ne-E2DAJY-3" value="END" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="480" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FdNQZd1uyK2Fwrzt_VXN-2" target="FdNQZd1uyK2Fwrzt_VXN-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-2" value="&quot;ใส่ค่า&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="70" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FdNQZd1uyK2Fwrzt_VXN-9" target="FdNQZd1uyK2Fwrzt_VXN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-23" value="จริง" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdNQZd1uyK2Fwrzt_VXN-16">
+          <mxGeometry x="-0.6149" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FdNQZd1uyK2Fwrzt_VXN-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-22" value="เท็จ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FdNQZd1uyK2Fwrzt_VXN-21">
+          <mxGeometry x="-0.8195" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-9" value="ค่าแสดง &amp;lt; ค่าที่ใส่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="130" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FdNQZd1uyK2Fwrzt_VXN-11" target="FdNQZd1uyK2Fwrzt_VXN-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="330" />
+              <mxPoint x="295" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-11" value="&quot;[ ค่าแสดง ] Hello World&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="300" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FdNQZd1uyK2Fwrzt_VXN-15" target="FdNQZd1uyK2Fwrzt_VXN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FdNQZd1uyK2Fwrzt_VXN-15" value="i + 1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="250" width="45" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
