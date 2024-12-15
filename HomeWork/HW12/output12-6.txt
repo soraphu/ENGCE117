@@ -1,0 +1,49 @@
+TEST CASE :
+    **Room A**
+    Name :
+        Johns
+    Height (cm):
+        176.6
+    Name :
+        Jobs
+    Height (cm):
+        177.5
+    Name :
+        Aims
+    Height (cm):
+        149.8
+    Name :
+        Mons
+    Height (cm):
+        158.9
+    Name :
+        Ammys
+    Height (cm):
+        151
+    Name :
+        As
+    Height (cm):
+        169.7
+    Name :
+        -1
+
+    **Room B**
+    Name :
+        Komsams
+    Height (cm):
+        176.1
+    Name :
+        Samaets
+    Height (cm):
+        165.4
+    Name :
+        Sunus
+    Height (cm):
+        168.1
+    Name :
+        -1
+
+    ---------------------------------
+    Room A -> Aims Ammys Mons As Johns Jobs
+    Room B -> Samaets Sunus Komsams
+    School -> Jobs Johns Komsams As Sunus Samaets Mons Ammys Aims

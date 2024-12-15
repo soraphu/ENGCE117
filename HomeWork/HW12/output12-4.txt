@@ -1,0 +1,69 @@
+TEST CASE 1 :
+    Employee 1 Name :
+        aey
+    Exp :
+        9956
+    Employee 2 Name :
+        j
+    Exp :
+        4900
+    Employee 3 Name :
+        a
+    Exp :
+        4560
+    Employee 4 Name :
+        orio
+    Exp :
+        200
+    Employee 5 Name :
+        vistra
+    Exp :
+        1656
+    Employee 6 Name :
+        oh
+    Exp :
+        2300
+    Employee 7 Name :
+        -1
+    **** Salary Result ****
+    x1.0 count 1
+    x1.2 count 1
+    x1.4 count 1
+    x1.6 count 0
+    x1.8 count 2
+    x2.0 count 1
+    The Employ that get x2.0 is aey
+    The Employ that get x1.0 is orio
+
+TEST CASE 2 :
+    Employee 1 Name :
+        I MAX
+    Exp :
+        90000
+    Employee 2 Name :
+        I LONG MAX
+    Exp :
+        80000
+    Employee 3 Name :
+        JU
+    Exp :
+        200
+    Employee 4 Name :
+        JULIAM
+    Exp :
+        2000
+    Employee 5 Name :
+        Mid
+    Exp :
+        3500 
+    Employee 6 Name :
+        -1
+    **** Salary Result ****
+    x1.0 count 1
+    x1.2 count 1
+    x1.4 count 0
+    x1.6 count 1
+    x1.8 count 0
+    x2.0 count 2
+    The Employ that get x2.0 is I MAX
+    The Employ that get x1.0 is JU

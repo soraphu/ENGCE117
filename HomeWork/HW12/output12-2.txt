@@ -1,0 +1,24 @@
+TEST CASE :
+    Studen A 
+    Name :
+        krixi
+    Score :
+        99 
+    Studen B 
+    Name :   
+        zanis
+    Score :
+        88 
+    Studen C 
+    Name :
+        payna
+    Score :
+        77
+    Studen D 
+    Name :
+        lubu
+    Score :
+        66
+    Output :
+        krixi zanis payna lubu
+        99.00 88.00 77.00 66.00

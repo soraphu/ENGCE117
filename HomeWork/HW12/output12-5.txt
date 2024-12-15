@@ -1,0 +1,21 @@
+TEST CASE :
+    Employee 1's Name :
+        omar
+    Sarary (Bath/Month) :
+        12750
+    Employee 2's Name :
+        alice
+    Sarary (Bath/Month) :
+        15900
+    Employee 3's Name :
+        max salary
+    Sarary (Bath/Month) :
+        19860
+    Employee 4's Name :
+        -1
+    --------------------------------------------
+
+    All salary per month: 48,510.00 Bath
+    All salary per year: 582,120.00 Bath
+    Tax (7% per year) : 40,748.40 Bath
+    Most tax in company : max salary (16,682.40 Bath per year)

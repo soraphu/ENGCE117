@@ -1,0 +1,28 @@
+TEST CASE :
+    Person A
+    Name :
+        Mai
+    Age :
+        25
+    Sex :
+        F
+    Score :
+        99.99
+    Person B
+    Name :
+        Moi     
+    Age :
+        18
+    Sex :
+        M
+    Score :
+        24   
+    ----------------------------------
+    --| Person A Information |--
+    Name : Mai (F)
+    Age : 25 years old
+    Score : 99.99 points
+    --| Person A Information |--
+    Name : Moi (M)
+    Age : 18 years old
+    Score : 24.00 points
