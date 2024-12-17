@@ -60,45 +60,54 @@
         99.99 88.88 77.77 66.66
 */
 #include <stdio.h>
+#include <string.h>
 
 struct student {
     char name[ 50 ] ;
     float score ;
-} ;
-
-void point( char *p_name, float *p_score ) ;
+} ;//end function
 
 int main() {
-    struct student A ;
-    struct student B ;
-    struct student C ;
-    struct student D ;
+    struct student stds[ 4 ] ;
     for( int i = 0 ; i < 4 ; i++ ) {
-        if( i == 0 ) {
-            printf( "Studen A \n" ) ;
-            point( A.name, &A.score ) ;
-        }//end if
-        if( i == 1 ) {
-            printf( "Studen B \n" ) ;
-            point( B.name, &B.score ) ;
-        }//end if
-        if( i == 2 ) {
-            printf( "Studen C \n" ) ;
-            point( C.name, &C.score ) ;
-        }//end if
-        if( i == 3 ) {
-            printf( "Studen D \n" ) ;
-            point( D.name, &D.score ) ;
-        }//end if
-    }//end for
-    printf( "Output :\n    " ) ;
-    printf( "%s %s %s %s\n    ", A.name, B.name, C.name, D.name ) ;
-    printf( "%.2f %.2f %.2f %.2f", A.score, B.score, C.score, D.score ) ;
-}//end function
+        if( i == 0 ) printf( "Student A\n" ) ;
+        if( i == 1 ) printf( "Student B\n" ) ;
+        if( i == 2 ) printf( "Student C\n" ) ;
+        if( i == 3 ) printf( "Student D\n" ) ;
+        printf( "Name :\n    " ) ;
+        scanf( "%s", stds[ i ].name ) ;
+        printf( "Score :\n    " ) ;
+        scanf( "%f", &stds[ i ].score ) ;
+    }//end if
 
-void point( char *p_name, float *p_score ) {
-    printf( "Name :\n    " ) ;
-    scanf( "%s", p_name ) ;
-    printf( "Score :\n    " ) ;
-    scanf( "%f", p_score ) ;
-}//end void
+    for( int i = 0 ; i < 4 ; i++ ) {// เรียง score & name
+        for( int j = 0 ; j < 4 ; j++ ) {
+            float a = stds[ j ].score ;
+            float b = stds[ j + 1 ].score ;
+            char Str_a[ 50 ] ;
+            char Str_b[ 50 ] ;
+            strcpy( Str_a, stds[ j ].name ) ;
+            strcpy( Str_b, stds[ j + 1 ].name ) ;
+            if( a < b ) {
+                
+                float temp = a ;
+                a = b ;
+                b = temp ;
+
+                char Str_temp[ 50 ] ;
+                strcpy( Str_temp, Str_a ) ;
+                strcpy( Str_a, Str_b ) ;
+                strcpy( Str_b, Str_temp ) ;
+                
+                stds[ j ].score = a ;
+                stds[ j + 1 ].score = b ;
+                strcpy( stds[ j ].name, Str_a ) ;
+                strcpy( stds[ j + 1 ].name, Str_b ) ;
+
+            }//end if
+        }//end for
+    }//end for
+    
+    printf( "%s %s %s %s\n", stds[ 0 ].name, stds[ 1 ].name, stds[ 2 ].name, stds[ 3 ].name ) ;
+    printf( "%.2f %.2f %.2f %.2f", stds[ 0 ].score, stds[ 1 ].score, stds[ 2 ].score, stds[ 3 ].score ) ;
+}//end function
