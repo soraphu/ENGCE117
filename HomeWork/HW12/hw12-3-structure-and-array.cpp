@@ -52,11 +52,10 @@ struct person { //struct ค่าของ 1 คน
 } ;//end struct
 
 char Setcomm( float num ) ;//ฟังชั่นใส่คอมม่า
-int mostsal( struct person FindMost[], int count ) ;//ฟังชั่นหาคนที่เงินเดือนมากสุด
 
 int main() {
-    int i = 0, max_A = 0 ;// i ใช้นับ max_A ใช้เก็บค่าอาเรย์ที่เงินเดือนมากสุด
-    float sum = 0 ;//เก็บค่ารวม salary
+    int i = 0, max_i = 0 ;// i ใช้นับ max_A ใช้เก็บค่าอาเรย์ที่เงินเดือนมากสุด
+    float sum = 0, MaxNum = 0 ;//เก็บค่ารวม salary
     char yn ;//ใช้เก็บค่าเงื่อนไข y n
     struct person employ[ 20 ] ;//employ เก็บค่าข้อมูลได้ 20 คน
     while( 1 ) {
@@ -72,6 +71,10 @@ int main() {
             printf( "Duration (Year) :\n    " ) ;
             scanf( "%d", &employ[ i ].year ) ;
             sum += employ[ i ].money ; 
+            if( employ[ i ].money > MaxNum ) {//หาค่ามากสุดและเก็บ i
+                MaxNum = employ[ i ].money ;
+                max_i = i ;
+            }//end if
             i++ ;
         }//end if
         else if( strcmp( &yn, "n" ) == 0 ) break ;//ถ้าตอบ n
@@ -84,24 +87,11 @@ int main() {
     Setcomm( sum ) ;//เงินเดือนรวม
     printf( " Bath\n    ------------------------------------\n" ) ;
     printf( "** Most duration in this business **\n" ) ;
-    max_A = mostsal( employ, i ) ;//max_A = ค่าที่คืนมาจากฟังชั่น, คือค่าของคนเงินเดือนมากสุด
-    printf( "Name : %s (%d Years)\n", employ[ max_A ].name, employ[ max_A ].year ) ;//แสดงข้อมูลคนเงินเดือนมากสุด
+    printf( "Name : %s (%d Years)\n", employ[ max_i ].name, employ[ max_i ].year ) ;//แสดงข้อมูลคนเงินเดือนมากสุด
     printf( "Salary : " ) ;
-    Setcomm( employ[ max_A ].money ) ;
+    Setcomm( employ[ max_i ].money ) ;
     printf( " Bath" ) ;
     return 0 ;
-}//end function
-
-int mostsal( struct person Findmost[], int count ) {
-    int Max = 0 ;
-    int Max_arr ;
-    for( int i = 0 ; i < count + 1 ; i++ ) {
-        if( Max < Findmost[ i ].money ) { //เมื่อ Max น้อยกว่า FindMost ที่ i
-            Max = Findmost[ i ].money ;
-            Max_arr = i ;//เก็บค่าของอาเรย์ที่ตรงกับ Max
-        }//end if
-    }//end for
-    return Max_arr ;
 }//end function
 
 char Setcomm( float num ) {
