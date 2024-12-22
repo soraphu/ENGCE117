@@ -12,19 +12,19 @@ int main() {
     printf( "a + b = %d \n", a + b ) ;
     printf( "a - b = %d \n", a - b ) ;
     printf( "a * b = %d \n", a * b ); 
-    printf( "a / b = %d (b must greater than 0)\n", c > 0 ? c : 0 ) ;
-    printf( "a % b = %d \n", a % b ) ;
-    printf( "a++ = %d \n", a++ ) ;
-    printf( "a-- = %d \n", a-- ) ;
-    printf( "a += 1 %d \n", a += 1 ) ;
-    printf( "a += b %d \n", a += b ) ;
-    printf( "a -= 1 %d \n", a -= 1 ) ;
-    printf( "a -= b %d \n", a -= b ) ;
-    printf( "a *= 1 %d \n", a *= 1 ) ;
-    printf( "a *= b %d \n", a *= b ) ;
-    printf( "a %= 1 %d \n", a %= 1 ) ;
-    printf( "a %= b %d \n", a %= b ) ;
-    printf( "a && b %d \n", a && b ) ;
-    printf( "a || b %d \n", a || b ) ;
+    printf( "a / b = %d (b must greater than 0)\n", c > 0 ? c : 0 ) ;//ใช้เงื่อนไข
+    printf( "a % b = %d \n", a % b ) ;//หารเอาเศษ
+    printf( "a++ = %d \n", a++ ) ;//a+1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a-- = %d \n", a-- ) ;//a-1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a += 1 %d \n", a += 1 ) ;//a+1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a += b %d \n", a += b ) ;//a+b และเปลี่ยนค่า a = คำตอบ
+    printf( "a -= 1 %d \n", a -= 1 ) ;//a-1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a -= b %d \n", a -= b ) ;//a-b และเปลี่ยนค่า a = คำตอบ
+    printf( "a *= 1 %d \n", a *= 1 ) ;//ax1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a *= b %d \n", a *= b ) ;//axb และเปลี่ยนค่า a = คำตอบ
+    printf( "a %= 1 %d \n", a %= 1 ) ;//a%1 และเปลี่ยนค่า a = คำตอบ
+    printf( "a %= b %d \n", a %= b ) ;//a%b และเปลี่ยนค่า a = คำตอบ
+    printf( "a && b %d \n", a && b ) ;//a and b และเปลี่ยนค่า a = คำตอบ
+    printf( "a || b %d \n", a || b ) ;//a or b และเปลี่ยนค่า a = คำตอบ
     return 0 ;
 }
