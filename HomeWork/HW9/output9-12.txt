@@ -1,0 +1,92 @@
+TEST CASE 1 :
+    Input cube size :
+        3
+    Array1 element :
+        1 1 1
+        1 1 1
+        1 1 1
+    Show zero (1=Left, -1=Right) :
+        2
+    ( Invalid answer!!! )
+    Show zero (1=Left, -1=Right) :
+        1
+    Matrix =
+        1 1 1
+        1 1 1
+        1 1 1
+    Matrix Left =
+        1 1 1
+        0 1 1
+        0 0 1
+
+TEST CASE 2 :
+    Input cube size :
+        4
+    Array1 element :
+        1 2 3 4
+        1 2 3 4
+        1 2 3 4
+        1 2 3 4 
+    Show zero (1=Left, -1=Right) :
+        -1
+    Matrix =
+        1 2 3 4
+        1 2 3 4
+        1 2 3 4
+        1 2 3 4
+    Matrix Right =
+        1 0 0 0
+        1 2 0 0
+        1 2 3 0
+        1 2 3 4
+
+TEST CASE 3 :
+    Input cube size :
+        6
+    Array1 element :
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+        1 1 2 2 3 3 
+        1 1 2 2 3 3 
+        1 1 2 2 3 3 
+        1 1 2 2 3 3 
+    Show zero (1=Left, -1=Right) :
+        91
+    ( Invalid answer!!! )
+    Show zero (1=Left, -1=Right) :
+        -1
+    Matrix =
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+        1 1 2 2 3 3
+    Matrix Right =
+        1 0 0 0 0 0
+        1 1 0 0 0 0
+        1 1 2 0 0 0
+        1 1 2 2 0 0
+        1 1 2 2 3 0
+        1 1 2 2 3 3
+
+TEST CASE 4 :
+    Input cube size :
+        5
+    Array1 element :
+        9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9            
+                    9
+    Show zero (1=Left, -1=Right) :
+        1
+    Matrix =      
+        9 9 9 9 9 
+        9 9 9 9 9 
+        9 9 9 9 9
+        9 9 9 9 9
+        9 9 9 9 9
+    Matrix Left =
+        9 9 9 9 9
+        0 9 9 9 9
+        0 0 9 9 9
+        0 0 0 9 9
+        0 0 0 0 9
