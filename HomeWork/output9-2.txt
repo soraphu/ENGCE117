@@ -1,0 +1,24 @@
+Test :
+    Input :
+        5  
+    Input :
+        7  
+    Input :
+        8  
+    Input :
+        9  
+    Input :
+        10 
+    Input :
+        15
+    Input :
+        99
+    Input :
+        100
+    Input :
+        2000
+    Input :
+        -1
+Output :
+    0-99 : 5  7  8  9  10  15  99  100  2000 
+    99-0 : 2000  100  99  15  10  9  8  7  5

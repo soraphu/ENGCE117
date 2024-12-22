@@ -1,0 +1,22 @@
+TEST CASE :
+    Input value to Array1 [0]:
+        -7
+    Input value to Array1 [1]:
+        -8
+    Input value to Array1 [2]:
+        -9 
+    Input value to Array1 [3]:
+        -4
+    Input value to Array1 [4]:
+        -3
+    Input value to Array1 [5]:
+        -2 
+    Input value to Array1 [6]:
+        50
+    Input value to Array1 [7]:
+        -1
+    Output:
+        Arrary1 = -7 -8 -9 -4 -3 -2 50
+        Arrary2 = 0 0 0 0 0 0 0
+    --| Copy Data from Array1 to Array2
+        Array2 =-7 -8 -9 -4 -3 -2 50
