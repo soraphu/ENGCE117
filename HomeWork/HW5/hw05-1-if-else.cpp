@@ -19,6 +19,6 @@ char r1, r2, r3, r4 ;
 int main() {
     scanf( "%c %c %c %c", &r1, &r2, &r3, &r4  ) ;
     printf( "Result: " ) ;
-    printf( "%c %c %c %c",r4 ,r3, r2, r1 ) ;
+    printf( "%c %c %c %c",r4 ,r3, r2, r1 ) ;//แสดงจากหลังไปหน้า
     return 0 ;
 }
