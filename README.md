@@ -12,7 +12,8 @@
 ## 📖 Subject Information
 * `Basic C`
 * `Struct`
-* `Linklist`
+* `Singly Linklist`
+* `Doubly Linklist`
 * `Greedy Algorithm`
 * `Binary Search`
 *  `Class`
