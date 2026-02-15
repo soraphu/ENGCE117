@@ -5,7 +5,7 @@
 * **สาขา** : วิศวกรรมคอมพิวเตอร์ ( เทียบโอน )
 * **รหัส** : 675430206078-7
 
-## 🛠️ Tech Stack (Core Technologies & Tools)
+## 🛠️ Tech Stack
 * Development : `VS Code`
 * Code Language : `C`
 
