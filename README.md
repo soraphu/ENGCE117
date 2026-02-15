@@ -1,4 +1,4 @@
-# 🚀 Subject : Advanced Programing #ENGCE117
+# 🚀 Subject : Computer Programming for Computer Engineer #ENGCE117
 
 ## 👤 Author 
 * **ชื่อ** : สรภูริ์ ทองจันทร์
