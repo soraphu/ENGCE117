@@ -6,7 +6,7 @@
 * **รหัส** : 675430206078-7
 
 ## 🛠️ Tech Stack
-* Development : `VS Code`
+* Development : `Visual Studio Code`
 * Code Language : `C`
 
 ## 📖 Subject Information
